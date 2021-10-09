@@ -88,21 +88,28 @@ a{
 
 // headear begin
 header{
+
 background-size:cover;
 background-position:center;
 min-height:400px ;
 }
 
 .header_row{
+  
   display: flex;
   justify-content: space-between;
   h1{
     margin:0 20px auto;
+    color:white;
   }
 
   .header_row_right{
     float:right;
     display: flex;
+    a{
+      color:white !important;
+    }
+    
 
     .page-links{
       display: flex;

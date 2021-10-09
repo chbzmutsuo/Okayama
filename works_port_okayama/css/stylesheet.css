@@ -46,6 +46,7 @@ header {
 
 .header_row h1 {
   margin: 0 20px auto;
+  color: white;
 }
 
 .header_row .header_row_right {
@@ -53,6 +54,10 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.header_row .header_row_right a {
+  color: white !important;
 }
 
 .header_row .header_row_right .page-links {
